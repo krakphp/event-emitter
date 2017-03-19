@@ -1,0 +1,26 @@
+{
+    "name": "krak/event-emitter",
+    "description": "Event Emitter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Krak\\EventEmitter\\": "src"
+        },
+        "files": [
+            "src/emitter.php"
+        ]
+    },
+    "require": {
+        "krak/invoke": "^0.1.0"
+    },
+    "require-dev": {
+        "peridot-php/peridot": "^1.19"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ]
+}
